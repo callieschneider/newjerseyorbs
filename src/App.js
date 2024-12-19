@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import styled from 'styled-components';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Sightings from './pages/Sightings';
 import Research from './pages/Research';
@@ -12,6 +13,12 @@ const AppContainer = styled.div`
   color: #0ff;
   min-height: 100vh;
   font-family: 'Courier New', monospace;
+  display: flex;
+  flex-direction: column;
+`;
+
+const MainContent = styled.main`
+  flex: 1;
 `;
 
 function App() {
@@ -19,12 +26,15 @@ function App() {
     <Router>
       <AppContainer>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/sightings" element={<Sightings />} />
-          <Route path="/research" element={<Research />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <MainContent>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/sightings" element={<Sightings />} />
+            <Route path="/research" element={<Research />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </MainContent>
+        <Footer />
       </AppContainer>
     </Router>
   );
