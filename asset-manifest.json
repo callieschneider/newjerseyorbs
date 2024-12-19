@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/newjerseyorbs/static/css/main.2e662a65.css",
+    "main.js": "/newjerseyorbs/static/js/main.698ec759.js",
+    "index.html": "/newjerseyorbs/index.html",
+    "main.2e662a65.css.map": "/newjerseyorbs/static/css/main.2e662a65.css.map",
+    "main.698ec759.js.map": "/newjerseyorbs/static/js/main.698ec759.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e662a65.css",
+    "static/js/main.698ec759.js"
+  ]
+}
