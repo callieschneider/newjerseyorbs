@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import styled from 'styled-components';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Counter from './components/Counter';
 import Home from './pages/Home';
 import Sightings from './pages/Sightings';
 import Research from './pages/Research';
@@ -26,6 +26,7 @@ function App() {
     <Router>
       <AppContainer>
         <Navbar />
+        <Counter />
         <MainContent>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -34,7 +35,6 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </MainContent>
-        <Footer />
       </AppContainer>
     </Router>
   );
