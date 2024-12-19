@@ -25,7 +25,7 @@ const Counter = () => {
     <CounterContainer>
       <CounterText>VISITORS:</CounterText>
       <img 
-        src="https://hitwebcounter.com/counter/counter.php?page=9812344&style=0007&nbdigits=5&type=ip&initCount=0" 
+        src="https://hitwebcounter.com/counter/counter.php?page=9812345&style=0007&nbdigits=6&type=ip&initCount=1" 
         title="Free Counter" 
         alt="web counter"
         border="0"
