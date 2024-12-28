@@ -1,4 +1,3 @@
-import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createGlobalStyle } from 'styled-components';
